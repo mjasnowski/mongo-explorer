@@ -1,0 +1,35 @@
+{
+  "name": "mongo-explorer",
+  "version": "1.0.0",
+  "description": "A simple MongoDB database explorer. React FrontEnd, Express Backend/HTTP and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack -wd",
+    "build-run": "nodemon --exec babel-node ./src/js/mongoServer.js"
+  },
+  "author": "Mike Jasnowski",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
