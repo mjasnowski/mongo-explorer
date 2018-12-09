@@ -16,6 +16,8 @@ Initial prototype for a MongoDB Database Explorer Client with a REACT Front-End,
 
 7) REST API error handling incomplete.
 
+8) Base CSS style links to an external CSS file @ my codepen.io site (see index.html)
+
 REST API
 
 The rest API is defined in mongoServer.js but briefly described here:
