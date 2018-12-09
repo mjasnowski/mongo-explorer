@@ -14,6 +14,8 @@ Initial prototype for a MongoDB Database Explorer Client with a REACT Front-End,
 
 6) Front-End client is accessible @ localhost:8080
 
+7) REST API error handling incomplete.
+
 REST API
 
 The rest API is defined in mongoServer.js but briefly described here:
