@@ -62,5 +62,5 @@ server.get(['/databases/:database/stats'], function(req, res) {
 
 // Start the BackEnd Server
 server.listen(port,host, () => {
-    console.info("MongoDB Explorer Server listening on port ", host, port);
+    console.info("MongoDB Explorer Server listening on ", host, port);
 });
