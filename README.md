@@ -18,11 +18,26 @@ REST API
 
 The rest API is defined in mongoServer.js but briefly described here:
 
-GET /databases  (Returns all databases)
-GET /databases/:database/collections  (Returns all collections for a database)
-GET /databases/:database/collections/:collection (Returns all documents in a collection)
-GET /databases/:database/stats (Returns statistics for a database)
-POST /databases/:database/collections/:collection (Issues a query for the particular database collection)
+<table>
+ <th>Method</th>
+ <th>Endpoint</th>
+ <th>Description</th>
+ <tr>
+  <td>GET</td><td>/databases</td><td>Returns all database</td>
+ </tr>
+ <tr>
+  <td>GET</td><td>/databases/:database/collections</td><td>Returns all collections for a database</td>
+ </tr>
+ <tr>
+  <td>GET</td><td>/databases/:database/collections/:collection</td><td>Returns all documents in a collection</td>
+ </tr>
+ <tr>
+  <td>GET</td><td>/databases/:database/stats</td><td>Returns statistics for a database</td>
+ </tr>
+ <tr>
+  <td>POST</td><td>/databases/:database/collections/:collection</td><td>Issues a query for the particular database collection</td>
+ </tr>
+</table>
 
 
 
