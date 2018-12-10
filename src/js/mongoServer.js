@@ -14,18 +14,9 @@ let mongoHost = "localhost";
 let mdb;
 
 // Establish connection object
-//var mongoClient = new MongoClient(`mongodb://${mongoHost}:${mongoPort}`);
-//mongoClient.connect(function(err,) {
-//    console.log("MongoDB Connection Created...");
-//    console.log(mongoClient);
-//});
-
 MongoClient.connect(`mongodb://${mongoHost}:${mongoPort}`, (err, database) => {
     mdb = database;
     console.log("MongoDB Database Connected To...");
-    // mdb.db().admin().listDatabases().then( databaseNames => {
-    //     console.log(databaseNames);
-    // });
 });
 
 // Tell Express to use the current directory for static content for now (i.e. index.html)
