@@ -22,7 +22,7 @@ class EchoInput extends React.Component {
     render(){
         return (
             <div className='EchoInput'>
-                <input className='EchoText' type="text" defaultValue="" id="EchoMessage"/>
+                <input className='EchoText' type="text" defaultValue="{}" id="EchoMessage"/>
                 <button className='EchoText' id="EchoButton" onClick={this.handleClick}>Echo</button>
             </div>
         );
