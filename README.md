@@ -44,5 +44,7 @@ The rest API is defined in mongoServer.js but briefly described here:
 </table>
 
 
+<b>Screen Shot 1 / Main Explorer Window<b>
 
+<img src="https://github.com/mjasnowski/mongo-explorer/blob/master/screenshots/screenshot1.png"/>
  
